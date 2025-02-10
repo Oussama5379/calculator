@@ -30,17 +30,21 @@ body {
 }
 .operator,
 .digit,
-.clear {
+.clear,
+.point,
+.equal {
 	width: 100px;
 	height: 100px;
 	border-radius: 20px;
 	line-height: 100px;
 	font-size: 36px;
 }
-.digit {
+.digit,
+.point {
 	background-color: #e0e0e0;
 }
-.operator {
+.operator,
+.equal {
 	background-color: peachpuff;
 }
 .clear {
